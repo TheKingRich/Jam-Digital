@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom right, #020111, #191621, #2f2e60, #5954a3, #a77afe);
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .clock {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+  }
+  
+  .clock div {
+    font-size: 2rem;
+    color: #333; /* warna teks untuk kontras dengan latar belakang putih */
+  }
+  .contact__socials {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact__socials a {
+    padding: 7px 10px;
+    font-size: 1.5rem;
+    color: var(--white);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  
+  .contact__socials a:hover {
+    background: var(--gradient-2);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+.contact__socials a:hover {
+    color: #007bff;
+}
+
+.contact__socials i {
+    font-size: 24px;
+}
